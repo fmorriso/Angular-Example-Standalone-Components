@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <span class='logo'>Angular Material Navigation &nbsp;</span>
+    <nav>
+        @for ( link of links; track link.path ) {
+            <a
+                [routerLink]="link.path"
+                [routerLinkActive]="['active-route']"
+                #rla="routerLinkActive">
+            {{link.label}}
+            </a>
+        }
+    </nav>
+</mat-toolbar>
