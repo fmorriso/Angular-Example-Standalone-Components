@@ -5,10 +5,11 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 //
 import {CustomLink} from './custom-link';
+import {MatButton, MatIconButton} from '@angular/material/button';
 
 @Component({
     selector: 'app-navigation-bar',
-    imports: [MatGridListModule, MatToolbarModule, RouterLink, RouterLinkActive],
+    imports: [MatGridListModule, MatToolbarModule, MatButton, RouterLink, RouterLinkActive],
     templateUrl: './navigation-bar.html',
     styleUrl: './navigation-bar.scss'
 })
