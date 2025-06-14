@@ -4,7 +4,7 @@ An Angular Example of standalone components
 ## Tools Used
 
 | Tool             |  Version |
-|:-----------------|--------: |
+|:-----------------|---------:|
 | @Angular/CLI     |   20.0.2 |
 | Angular          |   20.0.3 |
 | Angular/Material |   20.0.3 |
