@@ -1,7 +1,32 @@
-# ExampleStandaloneTrue
+# Angular Example of standalone components
+An Angular Example of standalone components
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+## Tools Used
 
+| Tool             |  Version |
+|:-----------------|--------: |
+| @Angular/CLI     |   20.0.2 |
+| Angular          |   20.0.3 |
+| Angular/Material |   20.0.3 |
+| node             |  22.16.0 |
+| npm              |   11.4.2 |
+| WebStorm         | 2025.1.2 |
+| VSCode           |  1.101.0 |
+
+
+## Change History
+
+| Date       | Description               |
+|:-----------|:--------------------------|
+| 2025-06-12 | Initial creation          |
+| 2025-06-13 | Upgrade to Angular 20.0.3 |
+
+## References
+
+* [Angular](https://angular.dev/overview)
+* [Angular Material](https://material.angular.io/)
+* [Bootstrap](https://getbootstrap.com/)
+* [ng-bootstrap](https://ng-bootstrap.github.io/#/home)
 ## Development server
 
 To start a local development server, run:

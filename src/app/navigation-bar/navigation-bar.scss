@@ -22,6 +22,19 @@ mat-toolbar {
             background-color: var(--mat-sys-inverse-primary);
             text-decoration: none!important;
         }
+
+        button {
+            display: flex;
+            gap: 8px;
+            color: var(--mat-sys-primary);
+            background-color: var(--mat-sys-inverse-primary);
+            text-decoration: none!important;
+        }
+
+        matButton {
+            color: var(--mat-sys-primary);
+            background-color: var(--mat-sys-inverse-primary);
+        }
     }
 
 }
@@ -30,6 +43,11 @@ mat-toolbar {
     color: var(--mat-sys-inverse-primary) !important;
     background-color: var(--mat-sys-primary) !important;
     text-decoration: none !important;
+}
+
+// mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed active-route
+.mdc-button, mat-mdc-button-base, mat-mdc-button mat-unthemed {
+    text-decoration-line: none !important;
 }
 
 ::ng-deep a {
